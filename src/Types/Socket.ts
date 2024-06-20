@@ -23,6 +23,7 @@ export type CacheStore = {
 }
 
 export type SocketConfig = {
+	forceGroupsPrekeys: boolean
     /** the WS url to connect to WA */
     waWebSocketUrl: string | URL
     /** Fails the connection if the socket times out in this interval */
